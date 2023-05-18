@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IAMUprojekt</string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_internet">No internet</string>
+    <string name="application_made_for_iamu_project">Application made for IAMU project</string>
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="google_maps">Google maps</string>
+    <string name="exit">Exit</string>
+    <string name="exitMessage">Really exit app?</string>
+    <string name="cancelExit">Cancel</string>
+    <string name="acceptExit">Ok</string>
+</resources>
