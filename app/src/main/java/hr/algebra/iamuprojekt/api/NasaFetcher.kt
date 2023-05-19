@@ -1,7 +1,9 @@
 package hr.algebra.iamuprojekt.api
 
+import android.content.ContentValues
 import android.content.Context
 import android.util.Log
+import hr.algebra.iamuprojekt.IAMU_PROVIDER_CONTENT_URI
 import hr.algebra.iamuprojekt.IamuReceiver
 import hr.algebra.iamuprojekt.framework.sendBroadcast
 import hr.algebra.iamuprojekt.handler.downloadImageAndStore
@@ -48,7 +50,15 @@ class NasaFetcher(private val context: Context) {
         GlobalScope.launch {
             nasaItems.forEach {
                 var picturePath = downloadImageAndStore(context, it.url)
-                items.add(Item(null, it.title, it.explanation, picturePath ?: "", it.date, false))
+
+                val values = ContentValues().apply {
+                    put(Item::title.name, it.title)
+                    put(Item::explanation.name, it.explanation)
+                    put(Item::picturePath.name, picturePath)
+                    put(Item::date.name, it.date)
+                    put(Item::read.name, false)
+                }
+                context.contentResolver.insert(IAMU_PROVIDER_CONTENT_URI, values)
             }
 
             context.sendBroadcast<IamuReceiver>()

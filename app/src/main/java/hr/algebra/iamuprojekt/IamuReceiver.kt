@@ -9,7 +9,7 @@ import hr.algebra.iamuprojekt.framework.startActivity
 class IamuReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
-        //context.setBooleanPreference(DATA_IMPORTED)
+        context.setBooleanPreference(DATA_IMPORTED)
         context.startActivity<HostActivity>()
     }
 
