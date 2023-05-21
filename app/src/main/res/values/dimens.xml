@@ -10,4 +10,12 @@
     <dimen name="nav_header_margin_top">25dp</dimen>
     <dimen name="nav_view_width">162dp</dimen>
     <dimen name="nav_view_height">290dp</dimen>
+    <dimen name="itemsPadding">10dp</dimen>
+    <dimen name="ivSize">50dp</dimen>
+    <dimen name="tvTextSize">20sp</dimen>
+    <dimen name="tvLeftMargin">20dp</dimen>
+    <dimen name="itemCardCornerRadius">9dp</dimen>
+    <dimen name="ivPagerHeight">300dp</dimen>
+    <dimen name="itemPagerMarginTop">20dp</dimen>
+    <dimen name="tvItemPagerWidth">0dp</dimen>
 </resources>

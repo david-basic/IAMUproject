@@ -10,4 +10,11 @@
     <string name="exitMessage">Really exit app?</string>
     <string name="cancelExit">Cancel</string>
     <string name="acceptExit">Ok</string>
+    <string name="deleteMessage">Do you want to delete item?</string>
+    <string name="acceptDelete">OK</string>
+    <string name="cancelDelete">Cancel</string>
+    <string name="deleteTitle">Delete</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="explanation">Explanation</string>
 </resources>
