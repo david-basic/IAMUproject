@@ -1,4 +1,4 @@
-package hr.algebra.iamuprojekt.factory
+package hr.algebra.iamuprojekt.dao.factory
 
 import java.net.HttpURLConnection
 import java.net.URL

@@ -7,7 +7,7 @@ import android.content.UriMatcher
 import android.database.Cursor
 import android.net.Uri
 import hr.algebra.iamuprojekt.dao.NasaRepository
-import hr.algebra.iamuprojekt.factory.getNasaRepository
+import hr.algebra.iamuprojekt.dao.factory.getNasaRepository
 import hr.algebra.iamuprojekt.model.Item
 
 private const val AUTHORITY = "hr.algebra.iamuprojekt.api.provider"

@@ -2,7 +2,7 @@ package hr.algebra.iamuprojekt.handler
 
 import android.content.Context
 import android.util.Log
-import hr.algebra.iamuprojekt.factory.createGetHttpUrlConnection
+import hr.algebra.iamuprojekt.dao.factory.createGetHttpUrlConnection
 import java.io.File
 import java.net.HttpURLConnection
 import java.nio.file.Files

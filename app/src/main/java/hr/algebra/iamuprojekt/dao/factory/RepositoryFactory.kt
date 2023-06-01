@@ -1,4 +1,4 @@
-package hr.algebra.iamuprojekt.factory
+package hr.algebra.iamuprojekt.dao.factory
 
 import android.content.Context
 import hr.algebra.iamuprojekt.dao.NasaSqlHelper
